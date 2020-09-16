@@ -15,8 +15,8 @@ export default function Form(props) {
   }
 
   return (
-    <form className='form container' onSubmit={onSubmit}>
-      <div className='form-group inputs'>
+    <form onSubmit={onSubmit}>
+      <div>
 
         <label>Name
             <input 
